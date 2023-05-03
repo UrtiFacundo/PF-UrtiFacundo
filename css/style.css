@@ -16,6 +16,7 @@ p {
 
 body {
     background-image: url(../img/background/background.png)
+    
 }
 
 .text-center {
@@ -62,11 +63,50 @@ nav,ul,li,a {
     font-size: 16px;
 
 }
-
 .contenedor {
     width: 85%;
     height: auto;
     margin: 5%;
     padding: 50px 35px;
     display: flex;
+}
+
+.formulario{
+display: flex;
+flex-direction: column;
+text-align: center;
+font-family: sans-serif;
+min-height: 70px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+form{
+padding: 50px 55px 85px 55px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+border-radius: 15px;
+text-align: center;
+width: 340px;
+}
+
+@media (max-width: 991px)
+{
+        body{
+            padding: 30px;
+        }
+        form{
+            padding: 40px 20px;
+            width: 100%;
+        }
+    }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 991px) {
+    img {
+        max-width: 50%;
+    }
 }

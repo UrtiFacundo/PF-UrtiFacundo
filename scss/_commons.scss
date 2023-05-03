@@ -1,0 +1,36 @@
+h1,h2 {
+    font-family: $mainfont;
+    font-weight: 600px;
+    font-size: 28px;
+}
+
+p {
+    font-family: $mainfont;
+    font-weight: 300px;
+    font-size: 14px;
+}
+
+body {
+    background-image: url(../img/background/background.png);
+    width: 100%;
+    }
+
+.text-center {
+    text-align: center
+}
+.contenedor {
+    width: 85%;
+    height: auto;
+    margin: 5%;
+    padding: 50px 35px;
+    display: flex;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 991px) {
+    img {
+        max-width: 50%;
+    }
+}
