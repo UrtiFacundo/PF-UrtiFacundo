@@ -23,6 +23,13 @@ nav,ul,li {
     
     margin-right 0px;
 }
+.botonera {
+    background-color: $botoncolor;
+}
+
+.botonera img {
+    width: auto;
+}
 
 nav,ul,li,a {
     color: $secondaryColor;
